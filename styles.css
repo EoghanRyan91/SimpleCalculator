@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, rgb(255,152,0), grey);
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+  width: 36%;
+  margin: 70px auto;
+  background: firebrick;
+  color: white;
+  border: 5px solid darkblue;
+  border-radius: 10px;
+}
+.display {
+  background-color: rgb(203, 201, 201);
+  width: 300px;
+  position: relative; bottom: 20px;
+  height: 80px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 40px;
+}
+
+.calculator {
+  background-color: rgb(54, 54, 54); 
+  width: 350px;
+  height: 450px;
+  margin: 100px auto;
+  border-radius: 20px;
+  padding-top: 10px;
+  
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+  margin-left: 15px;
+}
+
+button {
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  margin: 6px 6px;
+  padding: 5px;
+  width: 65px;
+  height: 45px;
+  background-color: rgb(113, 113, 113);
+  color: white;
+  font-size: 30px;
+}
+
+/* Hover Styling For Buttons */
+
+button:hover {
+  background: rgb(192, 192, 192) 
+}
+
+/* Styling For Clicking On Buttons */
+
+button:active {
+  background: rgb(191, 151, 51)
+}
+
+
+/* Styling For The Two Red Buttons */
+
+#r1-1 {
+  background-color: rgb(208, 48, 0);
+}
+#r1-2 {
+  background-color: rgb(208, 48, 0);
+}
+
+/* Custom Hover Styling For Two Red Buttons */
+
+#r1-1:hover {
+  background-color: firebrick;
+}
+#r1-2:hover {
+  background-color: firebrick;
+}
+
+/* Custom Active Syling For Two Red Buttons */
+
+#r1-1:active {
+  background-color: rgb(255, 107, 104);
+}
+#r1-2:active {
+  background-color: rgb(255, 107, 104);
+}
+
+/* Styling To Make The Plus Symbol Larger And Positioned Correctly */
+
+#r5-4 {
+  height: 110px;
+  position: relative; bottom: 62px;
+}
+
+/* Styling To Move The Bottom Row In Line Due To Plus Symbol Size Increase */
+
+ #r5-1, #r5-2, #r5-3 {
+  position: relative; bottom: 30px;
+} 
